@@ -1,0 +1,22 @@
+{
+  "prod": {
+    "valid": {
+      "username": "july2024.rohini@tekarch.com",
+      "password": "Admin123"
+   } ,
+    "invalid": {
+      "username": "july2024.roh@tekarch.com",
+      "password": "admin123"
+    }
+  },
+  "qa": {
+    "valid": {
+      "username": "july2024.rohini@tekarch.com",
+      "password": "Admin123"
+    },
+    "invalid": {
+      "username": "july2024.rohini@tekarch.com",
+      "password": "admin"
+    }
+  }
+}
