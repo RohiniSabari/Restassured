@@ -1,9 +1,15 @@
 package testdata;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
+
 public class Adduser {
+	 @JsonProperty("accountno")
 	private String accountno;
+	 @JsonProperty("departmentno")
 	private String departmentno;
+	 @JsonProperty("salary")
 	private String salary;
+	 @JsonProperty("pincode")
 	private String pincode;
 	
 	public Adduser(String accountno, String departmentno, String salary, String pincode) {

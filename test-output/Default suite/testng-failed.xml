@@ -6,7 +6,7 @@
       <class name="test.Logintest">
         <methods>
           <include name="setup"/>
-          <include name="delete"/>
+          <include name="login"/>
         </methods>
       </class> <!-- test.Logintest -->
     </classes>

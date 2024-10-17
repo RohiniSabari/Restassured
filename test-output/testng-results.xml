@@ -2,19 +2,19 @@
 <testng-results total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-09-30T19:01:43Z" name="Default suite" finished-at="2024-09-30T19:01:47Z" duration-ms="4064">
+  <suite started-at="2024-10-04T20:53:46Z" name="Default suite" finished-at="2024-10-04T20:54:07Z" duration-ms="20867">
     <groups>
     </groups>
-    <test started-at="2024-09-30T19:01:43Z" name="Default test" finished-at="2024-09-30T19:01:47Z" duration-ms="4064">
+    <test started-at="2024-10-04T20:53:46Z" name="Default test" finished-at="2024-10-04T20:54:07Z" duration-ms="20867">
       <class name="test.Logintest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:test.Logintest@7c8c9a05]" started-at="2024-09-30T14:01:43Z" name="setup" finished-at="2024-09-30T14:01:44Z" duration-ms="652" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.Logintest@5f354bcf]" started-at="2024-10-04T15:53:46Z" name="setup" finished-at="2024-10-04T15:53:47Z" duration-ms="1003" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="delete()[pri:0, instance:test.Logintest@7c8c9a05]" started-at="2024-09-30T14:01:44Z" name="delete" finished-at="2024-09-30T14:01:47Z" duration-ms="3390" status="PASS">
+        <test-method signature="getdata()[pri:0, instance:test.Logintest@5f354bcf]" started-at="2024-10-04T15:53:47Z" name="getdata" finished-at="2024-10-04T15:54:07Z" duration-ms="19835" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- delete -->
+        </test-method> <!-- getdata -->
       </class> <!-- test.Logintest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

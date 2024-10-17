@@ -42,7 +42,7 @@ public static String generatetoken() throws IOException {
 	Response loginres = Restutils.taPost(uri+endpoint,headers,payload);
 	//Restutils.validateschema(loginres,FileConstant1.getdataschema_FILE_PATH);
 	//System.out.println(loginres.asString());
-	token = loginres.jsonPath().get("[1].token");
+	token = loginres.jsonPath().get("[0].token");
 	}else {
 		System.out.println("Token is already generated");
 	}
